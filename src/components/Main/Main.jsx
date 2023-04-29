@@ -8,21 +8,16 @@ const Main = () => {
   return (
     <ContainerMain>
         <Latest>LATEST RECIPES  </Latest>
-      {Data.map(item => (
-        <Card
-          key={item.id} 
-          imagem={item.image} 
-          madruguinha={item.name }
+  
+      {Data.map(datas => (
+        <Card 
+          key={datas.id} 
+          imagem={datas.image} 
+          madruguinha={datas.name }
         
-      
-      
-      
         />
-
-
       ))}
-       
-      
+   
       
     
 
