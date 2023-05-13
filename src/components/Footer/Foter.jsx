@@ -12,13 +12,13 @@ const Foter = () => {
     <div>
         <GlobalStyle/>
         <S.Footer>
-                <S.IconsBox>
+                <S.Icons>
                  <S.Icones src={Instagram}/>   
                  <S.Icones src={Facebook}/>   
                  <S.Icones src={Pinterest}/>   
                  <S.Icones src={Twitter}/>
                 
-                </S.IconsBox>
+                </S.Icons>
                 <S.Navigation>
                     <ul>
                         <li>ABOUT</li>

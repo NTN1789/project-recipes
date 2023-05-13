@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const SecondSection = styled.section`
+export const BoxSection = styled.section`
 position: relative;
 top: 35vh;
 display: flex;
@@ -22,19 +22,15 @@ div span{
     width: 55px;
     height: 5px;
 }
-div h3{
-    font-family: "Reem Kufi Ink", sans-serif;
-    top: 0vh;
-    font-size: 26px;
-}
+
 p{
-    width: 70%;
+    width: 55%;
 }
 `
-export const ImageSecondSection = styled.img`
+export const Image= styled.img`
 position: relative;
-top:1rem;
-height: 100vh;
+
+height: 98vh;
 `
 
 
@@ -44,8 +40,8 @@ position: relative;
 display:flex;
 justify-content:flex-end;
 align-items:center;
-top: -85vh;
-left:12vh;
+top: -82vh;
+left:15vh;
 
 
 `

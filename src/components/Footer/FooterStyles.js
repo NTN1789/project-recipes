@@ -24,7 +24,7 @@ li{
     font-family: "Questrial", sans-serif;
 }
 `
-export const IconsBox = styled.div`
+export const Icons = styled.div`
 
 display: flex;
 justify-content: flex-end;
