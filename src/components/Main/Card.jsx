@@ -1,13 +1,14 @@
 
 import React from 'react'
-import { Product, ProductCard } from "./CardStyles"
+import { Images, Product, ProductCard } from "./CardStyles"
 export const Card = (props) => {
   return (
 
     <Product>
         <ProductCard key={props.id}>
-            <img src={props.imagem} alt="" className='image' />
-             <h2>{props.madruguinha}</h2>
+            <Images src={props.imagem} alt=""  />
+            <span></span>
+             <p>{props.madruguinha}</p>
 
        
 

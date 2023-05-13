@@ -6,7 +6,7 @@ import Data from "./data"
 
 const Main = () => {
   return (
-    <ContainerMain>
+    <ContainerMain style={{display: "flex", height:"70vw"}}>
         <Latest>LATEST RECIPES  </Latest>
   
       {Data.map(datas => (

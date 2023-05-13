@@ -2,40 +2,51 @@ import styled from "styled-components";
 
 
 
-export const Product = styled.figure `
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+export const Product = styled.section `
+     position: relative;
+    top: 28vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 10px;
+    overflow:hidden;
+    width: 100%;
+    height: 100vh;
 
  
-
 
 
 
 `
 
-export const ProductCard  = styled.div `
-  position: relative;
 
-  margin: 1rem;
-  flex: 2 0 25rem;
-  max-width: 30rem;
-  max-height: 70rem;
-  transition: 0.2s;
+export const ProductCard = styled.figure `
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: hidden;
+width: 28.5vw;
+height: 75vh;
+background-color: #ffff;
+box-shadow:  0px  4px  5px   grey;
 
-  
-.image{
-    margin-top: 10rem;
-  max-width: 100%;
+
+p{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height:22vh;
  
+  text-align: center;
+  font-size:2.5rem
 }
 
+`
 
+export const Images = styled.img`
+height: 40vh;
 
 
 `
-
-
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Navigation, Slogan } from "./HeaderStyle"
+import { Container, Logos, Navigation, Slogan } from "./HeaderStyle"
 import Logo from "../../assets/images/RC.png"
 import { GlobalStyle } from '../../style/Global'
 
@@ -9,7 +9,7 @@ const Header = () => {
     <>
     <GlobalStyle/>
     <Container>
-        <img src={Logo} alt="" />
+        <Logos src={Logo} alt="" />
         <Navigation> 
         <ul>
             <li>about</li>

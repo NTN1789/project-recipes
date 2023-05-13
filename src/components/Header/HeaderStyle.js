@@ -30,6 +30,9 @@ li{
     text-transform:uppercase;
     font-size:1.5em;
     list-style:none;
+    letter-spacing:3px;
+
+
     
 }
 `
@@ -38,6 +41,14 @@ export const Image = styled.img`
 width:100%
 
 `
+export const Logos = styled.img`
+position:relative;
+left:5rem;
+top:2rem;
+`
+
+
+
 
 export const Navigation = styled.nav`
 height:2vh;

@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const ContainerMain = styled.main`
 
   
-  height:60vw;
+  height:50vw;
   width: 100%;
   background-color:#F2F4F1;
-  top:10vh;
+
 
 
 `
@@ -15,9 +15,9 @@ export const ContainerMain = styled.main`
 export const Latest = styled.p`
 text-align:center;
 position:absolute;
-left:40%;
-padding-top:4.5%;
-font-size:2.5rem;
+left:38%;
+padding-top:2.5%;
+font-size:3.5rem;
 
 margin: auto 0 ;
 
