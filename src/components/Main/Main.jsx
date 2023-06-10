@@ -1,4 +1,3 @@
-import React from 'react'
 import { ContainerMain, Latest } from "./MainStyles"
 import { Card } from './Card'
 import Data from "./data"

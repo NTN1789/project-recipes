@@ -1,5 +1,3 @@
-
-import React from 'react'
 import { Images, Product, ProductCard } from "./CardStyles"
 export const Card = (props) => {
   return (
